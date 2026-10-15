@@ -1,0 +1,10 @@
+cat > .gitignore <<'EOF'
+target/
+**/target/
+.DS_Store
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+EOF
